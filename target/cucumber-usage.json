@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^I click on SigIn button$",
+    "steps": [
+      {
+        "name": "I click on SigIn button",
+        "aggregatedDurations": {
+          "average": 10.7382224,
+          "median": 10.7382224
+        },
+        "durations": [
+          {
+            "duration": 10.7382224,
+            "location": "src/test/resources/features/Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see create account link$",
+    "steps": [
+      {
+        "name": "I should see create account link",
+        "aggregatedDurations": {
+          "average": 5.3121111,
+          "median": 5.3121111
+        },
+        "durations": [
+          {
+            "duration": 5.3121111,
+            "location": "src/test/resources/features/Login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigated to google page$",
+    "steps": [
+      {
+        "name": "I navigated to google page",
+        "aggregatedDurations": {
+          "average": 10.2726172,
+          "median": 10.2726172
+        },
+        "durations": [
+          {
+            "duration": 10.2726172,
+            "location": "src/test/resources/features/Login.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 190361400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login Successful",
+        "description": "",
+        "id": "gmail-login-functionality;login-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 342300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10272617200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigated to google page",
+            "match": {
+              "location": "GooglePageStepDefs.i_navigated_to_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10738222400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on SigIn button",
+            "match": {
+              "location": "GooglePageStepDefs.i_click_on_SigIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5312111100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see create account link",
+            "match": {
+              "location": "GooglePageStepDefs.i_should_see_create_account_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gmail Login Functionality",
+    "description": "",
+    "id": "gmail-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Login.feature"
+  }
+]
